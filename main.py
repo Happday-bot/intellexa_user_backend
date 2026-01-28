@@ -882,13 +882,17 @@ def login_endpoint(creds: LoginRequest, response: Response):
     
     # Set refresh token as HttpOnly cookie (secure, httpOnly, sameSite)
     # Proper cookie settings for automatic transmission with requests
+    # In production (Render/GitHub Pages), we MUST use secure=True and samesite="none"
+    is_prod = os.getenv("RENDER") is not None or os.getenv("PRODUCTION") is not None
+    print(f"DEBUG: Environment detection - RENDER={os.getenv('RENDER')}, PRODUCTION={os.getenv('PRODUCTION')}, is_prod={is_prod}")
+    
     response.set_cookie(
         key=COOKIE_NAME,
         value=refresh_token_str,
         max_age=REFRESH_TOKEN_EXPIRE_DAYS * 24 * 60 * 60,  # 7 days
         httponly=True,  # Not accessible via JavaScript - XSS protection
-        secure=False,  # Set to True in production with HTTPS
-        samesite="lax",  # CSRF protection
+        secure=True if is_prod else False,  # MUST be True for SameSite=None
+        samesite="none" if is_prod else "lax",  # REQUIRED for cross-site cookies
         path=COOKIE_PATH,  # Root path so it's available everywhere
         domain=COOKIE_DOMAIN  # All subdomains if None
     )
@@ -947,13 +951,15 @@ def refresh_access_token(response: Response, refresh_token: str = Cookie(None, a
         new_refresh_token = create_refresh_token(
             data={"sub": username, "userId": user["id"]}
         )
+        
+        is_prod = os.getenv("RENDER") is not None or os.getenv("PRODUCTION") is not None
         response.set_cookie(
             key=COOKIE_NAME,
             value=new_refresh_token,
             max_age=REFRESH_TOKEN_EXPIRE_DAYS * 24 * 60 * 60,
             httponly=True,
-            secure=False,
-            samesite="lax",
+            secure=True if is_prod else False,
+            samesite="none" if is_prod else "lax",
             path=COOKIE_PATH,
             domain=COOKIE_DOMAIN
         )
@@ -983,11 +989,14 @@ def auth_refresh(response: Response, refresh_token: str = Cookie(None, alias=COO
 @app.post("/api/auth/logout")
 def logout(response: Response):
     """Logout by clearing the refresh token cookie"""
+    is_prod = os.getenv("RENDER") is not None or os.getenv("PRODUCTION") is not None
     # Delete cookie with same path and domain it was set with
     response.delete_cookie(
         key=COOKIE_NAME,
         path=COOKIE_PATH,
-        domain=COOKIE_DOMAIN
+        domain=COOKIE_DOMAIN,
+        secure=True if is_prod else False,
+        samesite="none" if is_prod else "lax"
     )
     print(f"✓ Logout successful: Refresh token cookie cleared ({COOKIE_NAME})")
     return {"message": "Logged out successfully"}
