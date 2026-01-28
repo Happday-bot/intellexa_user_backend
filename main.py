@@ -108,15 +108,13 @@ COOKIE_DOMAIN = None  # Set to your domain in production
 # -------------------------------------------------
 app.add_middleware(
     CORSMiddleware,
-    # Allow specific origins for credentials to work. Add your specific IP if needed.
+    # These are the FRONTEND websites allowed to talk to this backend
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
         "http://192.168.108.155:3000",
         "http://192.168.131.155:3000",
-        "https://happday-bot.github.io",
-        "https://intellexa-user.onrender.com", # Predicted Render URL
-        "https://*.onrender.com",
+        "https://happday-bot.github.io", # Your GitHub Pages site
     ],
     allow_credentials=True,
     allow_methods=["*"],
