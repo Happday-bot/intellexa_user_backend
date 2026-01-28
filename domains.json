@@ -1,0 +1,90 @@
+[
+    {
+        "id": "ai",
+        "title": "Artificial Intelligence",
+        "description": "Exploring Neural Networks, LLMs, and Computer Vision.",
+        "icon": "BrainCircuit",
+        "color": "from-blue-500 to-cyan-500",
+        "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "web",
+        "title": "Web Development",
+        "description": "Building the modern web with Next.js, React, and 3D graphics.",
+        "icon": "Globe",
+        "color": "from-purple-500 to-pink-500",
+        "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "iot",
+        "title": "IOT",
+        "description": "Connecting the physical world with sensors and automation.",
+        "icon": "Cpu",
+        "color": "from-emerald-500 to-green-500",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "sec",
+        "title": "InfoSecurity",
+        "description": "Ethical Hacking, CTFs, and Digital Forensics.",
+        "icon": "ShieldAlert",
+        "color": "from-red-500 to-orange-500",
+        "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "buisness",
+        "title": "Buisness Communcation",
+        "description": "Learn the art of effective business communication and leadership skills.",
+        "icon": "ChartNoAxesCombined",
+        "color": "from-red-500 to-orange-500",
+        "image": "https://images.unsplash.com/photo-1603201667141-5a2d4c673378?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "app",
+        "title": "Mobile App Development",
+        "description": "Creating seamless mobile experiences with Flutter and React Native.",
+        "icon": "Smartphone",
+        "color": "from-blue-500 to-cyan-500",
+        "image": "https://images.unsplash.com/photo-1595675024853-0f3ec9098ac7?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "blog",
+        "title": "Tech Blogging",
+        "description": "Sharing knowledge through writing and content creation.",
+        "icon": "NotebookPen",
+        "color": "from-green-500 to-lime-500",
+        "image": "https://images.unsplash.com/photo-1586281380923-93c9b0a7296e?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "dsa",
+        "title": "Data Structures & Algorithms",
+        "description": "Mastering the fundamentals of data structures and algorithms.",
+        "icon": "Database",
+        "color": "from-purple-500 to-pink-500",
+        "image": "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "media",
+        "title": "Video Editing & Media",
+        "description": "Crafting compelling stories through video production and editing.",
+        "icon": "Clapperboard",
+        "color": "from-green-500 to-lime-500",
+        "image": "https://images.unsplash.com/photo-1574717024239-25253f4ef40a?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "design",
+        "title": "Poster & UI/UX Design",
+        "description": "Creating visually appealing posters and user interfaces.",
+        "icon": "Brush",
+        "color": "from-green-500 to-lime-500",
+        "image": "https://images.unsplash.com/photo-1580130857334-2f9b6d01d99d?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+        "id": "event",
+        "title": "Event Management",
+        "description": "Organizing and managing tech events and meetups.",
+        "icon": "Calendar",
+        "color": "from-blue-500 to-cyan-500",
+        "image": "https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=1000&auto=format&fit=crop"
+    }
+]

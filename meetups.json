@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=1000&auto=format&fit=crop",
+        "title": "GenAI Summit 2024",
+        "description": "Over 200 registered teams competing to build the future of AI."
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000&auto=format&fit=crop",
+        "title": "Web3 Workshop",
+        "description": "Hands-on session on Smart Contracts and Ethereum basics."
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1000&auto=format&fit=crop",
+        "title": "Tech Talk: Cloud Native",
+        "description": "Industry experts sharing insights on Kubernetes and Docker."
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1000&auto=format&fit=crop",
+        "title": "Annual Hackathon",
+        "description": "24-hour coding marathon with amazing prizes and mentors."
+    }
+]

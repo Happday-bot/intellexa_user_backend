@@ -1,0 +1,55 @@
+[
+    {
+        "id": "admin-1",
+        "username": "admin",
+        "password": "admin123",
+        "role": "admin",
+        "name": "Super Admin",
+        "email": "admin@intellexa.com",
+        "createdAt": "2024-01-01"
+    },
+    {
+        "id": "967ab09e-fe44-478a-8078-5a465c8ef698",
+        "username": "Cat",
+        "password": "123456",
+        "role": "student",
+        "name": "Alfred Sam D",
+        "email": "luck@gmail.com",
+        "createdAt": "2026-01-11",
+        "title": "Student",
+        "description": "Ready to code!",
+        "skills": [
+            "python"
+        ],
+        "contact": null,
+        "college": "Rajalakshmi Engineering College",
+        "department": "Information Technology",
+        "year": "Final Year",
+        "location": "Chennai, India",
+        "bannerTheme": "rose",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ivy",
+        "resumeUrl": "http://localhost:8000/api/uploads/resumes/967ab09e-fe44-478a-8078-5a465c8ef698_Analysis on what might the future possible personality be.pdf",
+        "resumeName": "Analysis on what might the future possible personality be.pdf"
+    },
+    {
+        "id": "822dbd62-87f9-408a-b581-b08824c57744",
+        "username": "johndoe",
+        "password": "password123password123",
+        "role": "student",
+        "name": "Johnathan Doe",
+        "email": "john@example.com",
+        "createdAt": "2026-01-11",
+        "title": "Student",
+        "description": "Ready to code!",
+        "skills": [],
+        "contact": null,
+        "college": "Rajalakshmi Engineering College",
+        "department": "Computer Science",
+        "year": "Third Year",
+        "location": "Chennai, India",
+        "bannerTheme": "ocean",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix",
+        "resumeUrl": null,
+        "resumeName": null
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Smart India Hackathon 2026",
+        "organizer": "Govt of India",
+        "date": "Mar 15, 2026",
+        "mode": "Offline",
+        "location": "Noida, India",
+        "prize": "₹1,00,000",
+        "image": "https://images.unsplash.com/photo-1620912189865-1e8a33da4c5e?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "GovTech",
+            "AI",
+            "Open Innovation"
+        ],
+        "link": "https://sih.gov.in"
+    },
+    {
+        "id": 2,
+        "title": "ETHGlobal Tokyo",
+        "organizer": "ETHGlobal",
+        "date": "April 05, 2026",
+        "mode": "Hybrid",
+        "location": "Tokyo / Online",
+        "prize": "$50,000",
+        "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1000&auto=format&fit=crop",
+        "tags": [
+            "Web3",
+            "Blockchain",
+            "DeFi"
+        ],
+        "link": "https://ethglobal.com"
+    }
+]

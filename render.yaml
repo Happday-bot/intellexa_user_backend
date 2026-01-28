@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: intellexa-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free # or your preferred plan
+    region: ohio # or your preferred region
+    envVars:
+      - key: MONGO_URI
+        sync: false # Set this manually in Render dashboard
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PORT
+        value: 8000
+    healthCheckPath: /api/stats
+    autoDeploy: true

@@ -1,0 +1,16 @@
+[
+    {
+        "ticketId": "TICK-9EF06B",
+        "studentId": "967ab09e-fe44-478a-8078-5a465c8ef698",
+        "eventId": 2,
+        "scannedAt": "2026-01-12T09:26:42.668987",
+        "scannedBy": "admin"
+    },
+    {
+        "ticketId": "TICK-41ECEA",
+        "studentId": "967ab09e-fe44-478a-8078-5a465c8ef698",
+        "eventId": 1,
+        "scannedAt": "2026-01-12T09:43:13.382362",
+        "scannedBy": "manual-admin"
+    }
+]

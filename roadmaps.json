@@ -1,0 +1,28 @@
+[
+    {
+        "id": "web",
+        "label": "Full Stack Web",
+        "description": "Master the art of building modern web applications from front to back.",
+        "icon": "Globe",
+        "color": "from-purple-500 to-pink-500",
+        "roadmap": [
+            {
+                "title": "HTML, CSS & JS",
+                "desc": "The building blocks of the web."
+            },
+            {
+                "title": "React & Tailwind",
+                "desc": "Modern UI development."
+            }
+        ],
+        "resources": [
+            {
+                "title": "React Documentation",
+                "type": "Documentation",
+                "desc": "The official guide to learning React.",
+                "link": "https://react.dev",
+                "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=1000&auto=format&fit=crop"
+            }
+        ]
+    }
+]

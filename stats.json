@@ -1,0 +1,22 @@
+[
+    {
+        "label": "Hackathons Hosted",
+        "value": "12+",
+        "icon": "Trophy"
+    },
+    {
+        "label": "Hands On Workshops Conducted",
+        "value": "45+",
+        "icon": "Calendar"
+    },
+    {
+        "label": "Meetups Organized",
+        "value": "30+",
+        "icon": "Users"
+    },
+    {
+        "label": "Active Community",
+        "value": "2K+",
+        "icon": "Users"
+    }
+]

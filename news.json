@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "GPT-5 Rumors & What to Expect",
+        "category": "AI",
+        "date": "Jan 03, 2026",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop",
+        "summary": "As OpenAI gears up for its next big release, the tech world buzzes with speculation about multimodal capabilities and reasoning improvements."
+    },
+    {
+        "id": 2,
+        "title": "The Rise of Spatial Computing",
+        "category": "AR/VR",
+        "date": "Dec 28, 2025",
+        "image": "https://images.unsplash.com/photo-1626379953822-baec19c3accd?q=80&w=1000&auto=format&fit=crop",
+        "summary": "With new headsets hitting the market, we explore how spatial computing is transforming workflows beyond just gaming."
+    },
+    {
+        "id": 3,
+        "title": "Next.js 15: Server Actions 2.0",
+        "category": "Web Dev",
+        "date": "Dec 15, 2025",
+        "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=1000&auto=format&fit=crop",
+        "summary": "Vercel's latest update promises even faster mutations and better type safety. Here is a deep dive into the changelog."
+    }
+]
